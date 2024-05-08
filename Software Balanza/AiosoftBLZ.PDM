@@ -1,0 +1,115 @@
+[Root]
+Most Recent Package=Paquete de instalación estándar 1
+
+
+[Package|Paquete de instalación estándar 1|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\Users\leonardo\Desktop\software balanza
+
+[Package|Paquete de instalación estándar 1|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Paquete de instalación estándar 1|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Paquete de instalación estándar 1|Files Found]
+
+[Package|Paquete de instalación estándar 1|Files Released]
+
+[Package|Paquete de instalación estándar 1|Missing Dependency Information]
+
+[Package|Paquete de instalación estándar 1|Out-of-Date Dependency Information]
+C:\Windows\System32\mscomctl.OCX=
+
+[Package|Paquete de instalación estándar 1|Files Added]
+C:\Users\leonardo\Documents\SISTEMAS\Software Balanza\puerto.txt=
+
+[Package|Paquete de instalación estándar 1|Files Removed]
+
+[Package|Paquete de instalación estándar 1|Files In Project]
+C:\Users\leonardo\Documents\SISTEMAS\Software Balanza\Proyecto1.exe=Yes
+C:\Windows\System32\msvbvm60.dll=Yes
+C:\Windows\System32\oleaut32.dll=Yes
+C:\Windows\System32\olepro32.dll=Yes
+C:\Windows\System32\asycfilt.dll=Yes
+C:\Windows\System32\stdole2.tlb=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\Windows\System32\VB6ES.DLL=Yes
+C:\Windows\System32\MSCOMM32.OCX=Yes
+C:\Windows\System32\MSCOMES.DLL=Yes
+C:\Windows\System32\systray.ocx=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\Windows\System32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+C:\Windows\System32\mscomctl.OCX=Yes
+C:\Windows\System32\MSCMCES.DLL=Yes
+C:\Users\leonardo\Documents\SISTEMAS\Software Balanza\puerto.txt=Yes
+
+[Package|Paquete de instalación estándar 1|Configure Registry Files]
+Applicable=No
+
+[Package|Paquete de instalación estándar 1|Configure Remote Servers]
+Applicable=No
+
+[Package|Paquete de instalación estándar 1|Install Locations]
+C:\Users\leonardo\Documents\SISTEMAS\Software Balanza\Proyecto1.exe=$(AppPath)
+C:\Windows\System32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\Windows\System32\oleaut32.dll=$(WinSysPathSysFile)
+C:\Windows\System32\olepro32.dll=$(WinSysPathSysFile)
+C:\Windows\System32\asycfilt.dll=$(WinSysPathSysFile)
+C:\Windows\System32\stdole2.tlb=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\Windows\System32\VB6ES.DLL=$(WinSysPath)
+C:\Windows\System32\MSCOMM32.OCX=$(WinSysPath)
+C:\Windows\System32\MSCOMES.DLL=$(WinSysPath)
+C:\Program Files\DsNET Corp\aTube Catcher 2.0\mscomctl.OCX=$(WinSysPath)
+C:\Windows\System32\systray.ocx=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\Windows\System32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\Windows\System32\mscomctl.OCX=$(WinSysPath)
+C:\Windows\System32\MSCMCES.DLL=$(WinSysPath)
+C:\Users\leonardo\Documents\SISTEMAS\Software Balanza\puerto.txt=$(AppPath)
+
+[Package|Paquete de instalación estándar 1|Configure Shared Files]
+Applicable=Yes
+C:\Users\leonardo\Documents\SISTEMAS\Software Balanza\Proyecto1.exe=Yes
+C:\Users\leonardo\Documents\SISTEMAS\Software Balanza\puerto.txt=Yes
+
+[Package|Paquete de instalación estándar 1|Distribution]
+Type=single
+Size=
+Title=AiosoftBLZ
+
+[Package|Paquete de instalación estándar 1|Package]
+PackageFolder=C:\Users\leonardo\Desktop\software balanza
+ProjectFolder=C:\Users\leonardo\Documents\SISTEMAS\Software Balanza
+ServerSideCab=
+File1=C:\Users\leonardo\Desktop\software balanza\setup.exe
+File2=C:\Users\leonardo\Desktop\software balanza\Setup.Lst
+File3=C:\Users\leonardo\Desktop\software balanza\Proyecto1.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+[Package|Paquete de instalación estándar 1|IconGroups]
+Group0=AiosoftBLZ
+PrivateGroup0=Falso
+Parent0=$(Programs)
+Group1=$(Start Menu)
+PrivateGroup1=Verdadero
+Parent1=
+
+[Package|Paquete de instalación estándar 1|AiosoftBLZ]
+Icon1=Proyecto1.exe
+Title1=AiosoftBLZ
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Paquete de instalación estándar 1|$(Start Menu)]
+Icon1=Proyecto1.exe
+Title1=AiosoftBLZ
+StartIn1=$(AppPath)
+Key1=Icon3
